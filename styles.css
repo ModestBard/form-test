@@ -1,0 +1,125 @@
+@font-face {
+  font-family: Arima;
+  src: url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NorseBold"; /* Give the font a name */
+  src: url("/Norse-Bold.otf") format("opentype"); /* Path to the font file */
+  font-weight: bold; /* Specify the weight (bold in this case) */
+  font-style: normal; /* Style is normal (not italic) */
+}
+body {
+  font-family: Arima, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* background-color: red; */
+  background-image: url("https://img.pikbest.com/wp/202343/green-tropical-leaves-exquisite-texture-a-captivating-abstract-nature-leaf-background-with-vintage-dark-tones-perfect-as-desktop-wallpaper_9975760.jpg!bw700");
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+}
+div {
+  padding: 0%;
+  border: 0px;
+}
+h1 {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+.odin-icon {
+  width: 70%;
+  margin-bottom: 10px;
+}
+.page {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  font-family: NorseBold, sans-serif;
+  display: flex;
+  width: 30%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.icon-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introduction {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.right-side {
+  width: 70%;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.signup-div {
+  background-color: antiquewhite;
+  backdrop-filter: blur(10px); /* Blurs the background */
+  margin: 0px 25px 0px 25px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.glass-container {
+  background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+  backdrop-filter: blur(10px); /* Blurs the background */
+  /* border-radius: 15px; */
+  text-align: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border to enhance the glass effect */
+  height: 100vh;
+}
+
+.form-box {
+  box-shadow: rgb(221 183 183) 0px 10px 19px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  gap: 5px;
+}
+.submit-button {
+  background-color: rgb(78, 78, 239);
+  border-radius: 5px;
+  border: 1px solid rgba(8, 7, 22, 0.8);
+  padding: 8px;
+  color: white;
+  font-weight: 500;
+}
+.name,
+.email-phone,
+.password-confirm {
+  display: flex;
+  gap: 100px;
+  padding: 10px;
+}
+label {
+  font-weight: bold;
+  padding-left: 5px;
+  font-size: 0.7rem;
+  display: block;
+}
+input {
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+}
